@@ -46,6 +46,7 @@
     padding: 130px 0;
     background-color: #3A786C;
     position: relative;
+    overflow: hidden;
 }
 
 .in-banner {
@@ -63,21 +64,21 @@
     height: 32%;
     background: #fff;
     border-radius: 8px;
-    top: -90px;
+    top: 8%;
     opacity: 0.3;
-    left: 0;
+    left:-32%;
     animation: circle1 20s ease-in-out infinite;
 }
 
 @keyframes circle1{
-	0%{top: -90px; left: 0; transform: translateY( 0) rotate(0deg);}
-	10%{top: -100px; left: -97px; transform: translateY(0px); rotate:(0deg);}
-	30%{top: -128px; left: 75px;  transform: translateZ(100px);  rotate:(60deg); }
-	50%{top: -93px; left: 422px;}
-	70%{top: 24px; left: 678px;}
-	80%{top:  200px; left: 536px;}
-	90%{top: 229px; left: 83px;}
-	100%{top: -90px; left: 0;}
+	0%{top: 8%; left: -0%;}
+	10%{top: -58%; left: 28%; transform: translate3d(10px, -2px, 19px) rotate(109deg);}
+	30%{top: 39%; left: 184%;  transform: translate3d(10px, -2px, 19px) rotate(76deg);}
+	50%{top: -58%; left: 339%; transform: translate3d(10px, -2px, 19px) rotate(106deg);}
+	70%{top: 50%; left: 481%; transform: translate3d(10px, -2px, 19px) rotate(73deg);}
+	80%{top: 127%; left: 293%; transform: translate3d(10px, -2px, 19px) rotate(113deg);}
+	90%{top: 48%; left: 150%; transform: translate3d(10px, -2px, 19px) rotate(74deg);}
+	100%{top: 128%; left: -25%; transform: translate3d(10px, -2px, 19px) rotate(90deg);}
 
 }
 .banner-text::after {
